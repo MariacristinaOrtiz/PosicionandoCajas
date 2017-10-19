@@ -22,7 +22,7 @@
 /* A nuestro bloque div hijo de div clase red (caja grande) identificado con id=purple le agregamos color morado, una altura  y ancho respecto a la ventana del navegador(posicion fixed), una posicion fixed que permite que la caja se queda fija asi movamos la pagina la cual la ubicamos segun pide el modelo a replicar por medio de las propiedades left y bottom*/
 #purple {
   position:fixed;
-  left:9%;
+  left:7.7%;
   bottom:60%;
   background-color: purple;
   width:15%;
