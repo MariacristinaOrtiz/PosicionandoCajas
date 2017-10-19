@@ -1,0 +1,4 @@
+/* Indicamos con un selector universal que indique por herencia que se respete el ancho de todas las cajas(box) de los elementos */
+*{
+    box-sizing: border-box;
+}
