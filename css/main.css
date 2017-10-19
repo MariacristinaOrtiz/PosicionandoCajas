@@ -2,3 +2,54 @@
 *{
     box-sizing: border-box;
 }
+/* A nuestro bloque div padre de clase red (caja grande) le agregamos color rojo, una altura  y ancho respecto al body y un margen para separarlo de la caja grande azul*/
+.red {
+
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  margin:20px;
+/* A nuestro bloque div hijo de div clase red (caja grande) identificado con id=yellow le agregamos color amarillo, una altura  y ancho respecto a su bloque padre, una posicion relativa para moverla segun pide el modelo a replicar por medio de las propiedades left y top*/
+}
+#yellow {
+  position:relative;
+  left:23.2%;
+  top:24.8%;
+  background-color: yellow;
+  width:20%;
+  height: 20%;
+}
+/* A nuestro bloque div hijo de div clase red (caja grande) identificado con id=purple le agregamos color morado, una altura  y ancho respecto a la ventana del navegador(posicion fixed), una posicion fixed que permite que la caja se queda fija asi movamos la pagina la cual la ubicamos segun pide el modelo a replicar por medio de las propiedades left y bottom*/
+#purple {
+  position:fixed;
+  left:9%;
+  bottom:60%;
+  background-color: purple;
+  width:15%;
+  height: 25%;
+
+}
+/* A nuestro bloque div padre de clase blue (caja grande) le agregamos color azul, una altura  y ancho respecto al body y un margen para separarlo de la caja grande roja*/
+.blue {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+/* A nuestro bloque div hijo de div clase ble (caja grande) identificado con id=green le agregamos color verde, una altura  y ancho respecto a su bloque padre, una posicion relativa para moverla segun pide el modelo a replicar por medio de las propiedades left y top*/
+#green {
+  position:relative;
+  left:25%;
+  top:25%;
+  background-color: green;
+  width:50%;
+  height: 50%;
+}
+/* A nuestro bloque div hijo de div clase ble (caja grande) identificado con id=black le agregamos color negro, una altura  y ancho respecto a su bloque padre, una posicion relativa para moverla segun pide el modelo a replicar por medio de la propieddad bottom*/
+#black {
+  position:relative;
+  bottom: 50%;
+  background-color: black;
+  width:25%;
+  height: 25%;
+}
