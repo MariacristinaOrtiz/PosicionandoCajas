@@ -4,4 +4,4 @@ Se muestra la replicación de una pagina web en el cual se muestran dos cajas do
 
 
 ## Modelo para el replicado
- ![posicionamiento de cajas](https://github.com/MariacristinaOrtiz/Bandera-display-part-1/blob/master/assets/imgs/bandera%20display%20parte%201.png)
+ ![posicionamiento de cajas](https://github.com/MariacristinaOrtiz/PosicionandoCajas/blob/master/assets/imgs/caja%201.png)
